@@ -11,7 +11,13 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: ["https://your-frontend-domain.com", "http://localhost:5173"], // <-- add your real frontend URL
+    methods: ["POST", "GET"],
+    credentials: true,
+  })
+);
 app.use(bodyParser.json());
 
 // Connect Database
