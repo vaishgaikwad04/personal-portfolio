@@ -24,7 +24,7 @@ function Home() {
       <p
         ref={textRef}
         className={`text-gray-400 mt-6 text-lg sm:text-2xl md:text-3xl 
-  mb-2 text-center sm:text-left max-w-3xl mx-auto sm:mx-0 p-4
+  mb-2 text-left sm:text-left max-w-3xl mx-auto sm:mx-0 p-4
   transition-all duration-700 ease-in-out ${
     textVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
   }`}
