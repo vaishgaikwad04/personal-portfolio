@@ -3,7 +3,7 @@ export const projects = [
     slug: "ecommerce",
     id: 1,
     title: "Zara Inspired E-Commerce Website",
-    image: "/zara9.webp",
+    image: "/zara.png",
     summary: "Full-stack e-commerce with authentication, cart, and payments.",
     description:
       "A Zara-inspired fashion e-commerce platform built using the MERN stack. It includes user authentication, protected routes, and role-based access. Users can explore collections, add products to the cart, like or comment on products, and make secure payments via Stripe. The admin dashboard allows complete control over product, order, and user management through MongoDB. Styled with TailwindCSS for a clean, minimal, and fully responsive look inspired by Zara’s design aesthetic.",
@@ -44,7 +44,7 @@ export const projects = [
   slug: "portfolio",
    id: 3,
   title: "Personal Portfolio Website",
-  image: "/port.png", 
+  image: "/port.webp", 
   summary: "Modern portfolio showcasing projects, skills, and experience.",
 
   description:
