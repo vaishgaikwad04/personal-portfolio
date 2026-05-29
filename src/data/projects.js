@@ -67,7 +67,7 @@ export const projects = [
   ],
 
   repo: "https://github.com/your-username/portfolio", 
-  live: "personal-portfolio-main-o9ev.onrender.com", 
+  live: "https://personal-portfolio-main-o9ev.onrender.com/personal-portfolio-main-o9ev.onrender.com", 
 },
 
   {
